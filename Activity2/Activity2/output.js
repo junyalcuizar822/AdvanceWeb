@@ -1,0 +1,1 @@
+document.getElementById("output").innerHTML = 14 + 14;

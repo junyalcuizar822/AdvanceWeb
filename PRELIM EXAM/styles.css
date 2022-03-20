@@ -1,0 +1,122 @@
+body {
+    background: rgb(58, 58, 58);
+}
+button{
+    background-color: #424242; /* Green */
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2.5px;
+  cursor: pointer;
+  width: 370px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(41, 41, 41);
+    font-size: 40px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+section {
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.heading {
+    text-align: center;
+    margin: 0rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .1rem solid rgba(184, 184, 184, 0.267);
+    color:#fff;
+    background-color: #252525;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding: 0 15rem;
+}
+
+.home h3 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+.home h1 {
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.home p {
+    font-size: 30px;
+    color: #eee;
+
+
+}
+
+.about .info {
+    flex: 1 1 48rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.about .info p {
+    font-size: 30px;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.education .info {
+    flex: 1 1 48rem;
+    padding-left: 6rem;
+    color: #eee;
+}
+
+.education .info h3 {
+    font-size: 2rem;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+.education h4{
+    font-size: 28px;
+}
+.education h5{
+    font-size: 25px;
+    font-style: italic;
+}
+.box{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.hobbies p {
+    color: white;
+    font-size: 30px;
+    font-family: Lucida;
+    text-align: center;
+}
